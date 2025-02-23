@@ -1,0 +1,118 @@
+* [33m9bd54ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m docs: Improve cluster connection documentation
+* [33mdba0728[m chore: Expand and organize gitignore patterns
+* [33mf688032[m fix: Ensure .kube/manual directory exists with proper permissions in Docker
+* [33mc975394[m fix: ensure proper directory ownership and permissions in Dockerfile
+* [33m4304bbe[m chore: simplify kubeconfig volume mount in docker-compose
+* [33mbde8fd6[m fix: Fix directory creation in Dockerfile for Alpine compatibility
+* [33mda89c79[m feat: Separate AWS and manual kubeconfig paths
+* [33m2a8b29b[m fix: Add EKS cluster access validation before kubeconfig generation
+* [33mec7bae8[m refactor: Remove redundant file permission setting in kube-init
+* [33mb04eed4[m fix: ensure correct docker volume permissions and adjust kube config handling
+* [33m440c0d7[m fix: correct write permissions for kubeconfig volume mounting
+* [33m6a45bd3[m docs: Update .env.example with improved structure and documentation
+* [33mad74e5c[m chore: Add venv to .gitignore and reorder environment variables
+* [33mca5ae28[m feat: Add cluster config variables with defaults
+* [33meec4056[m docs: Add kubeconfig documentation and git exclusions
+* [33mce0dcb6[m feat: add manual kubeconfig mode with AWS fallback
+*   [33m9dedf86[m Merge pull request #1 from NneomaBlessyn/bugfix-missing-make-commands
+[32m|[m[33m\[m  
+[32m|[m * [33m5454981[m Rephrase message
+[32m|[m * [33m47db1b1[m Fix issue with `make run` failing
+[32m|[m * [33m13061a8[m bugfix: Fix issue with `make deps` and `make run` failing
+[32m|[m[32m/[m  
+* [33m0e9c961[m docs: Add project structure section to README
+* [33mf293f64[m ci: update cd workflow
+* [33mf4d283d[m feat: update deploy script
+* [33mc094b1f[m ci (fix): fix cd workflow
+* [33m5773453[m ci (fix): fix cd workflow
+* [33mc869d1c[m ci: update workflow
+* [33me4d47f6[m docs: update readme
+* [33m5b8eeef[m build: make deploy script executable
+* [33m00bf514[m ci: create cd workflow and script
+* [33m9b7515f[m feat: update config.json
+* [33m3cd1bb3[m docs: add worflow diag
+* [33mb966a94[m chore: update configs with new endpoints and relative commits
+* [33md7457cb[m chore: update user and chat IDs in config
+* [33m7be5c15[m docs: Add comprehensive README with architecture and quick start guide
+* [33md498388[m feat: delete bunch of unnecesary files
+* [33m954426f[m build: copy deployment scripts
+* [33m41a2147[m fix: Add missing os import
+* [33m4d764de[m feat: add config-driven test command and deployment validation
+* [33m56eb140[m chore: Update production websocket URL and user/chat IDs
+* [33m549fa48[m feat: support custom test commands via client
+* [33m460db9f[m fix: Remove duplicate test command argument handling
+* [33mccb19f8[m feat: add support for custom test commands
+* [33m4f479ad[m feat: Add custom test command support with path resolution fixes
+* [33m337a0b6[m feat: Enhance test summary display with colors, emojis, and fix duplication
+* [33m0f8446a[m feat: Improve test summary report with detailed formatting and commit messages
+* [33mc3df743[m feat: Add user, chat, and project type configuration settings
+* [33m223d117[m chore: update test config to use local server and test credentials
+* [33m4376b03[m feat: optimize test runner git operations with repo reuse
+* [33mc4b7275[m fix: ensure pod readiness and improve command quoting with error formatting
+* [33m5a2c0e9[m fix: Handle check parameter and project-specific cleanup
+* [33m62196d5[m feat: generalize the ws url too
+* [33me6f0f51[m feat: add config file support and refactor client initialization
+* [33md9c6f25[m feat: enhance client with formatted JSON output and test summary
+* [33m4373c91[m chore: Update client configuration and test IDs
+* [33m453bfb8[m feat: Add project-type-specific namespace deployment handling
+* [33m21ca715[m feat: create structure for stacks backend.im supports
+* [33m877ee4c[m test: add FastAPI test suite with success/failure cases
+* [33m9c1a65a[m feat: add test execution to websocket handler
+* [33mde700f8[m feat: delete test runner .sh
+* [33m846a9ee[m fix: add missing List import to resolve undefined name
+* [33mb42ba74[m feat: add structured JSON output and single commit handling for test runner
+* [33mff3d8e6[m fix: improve kubectl error handling and namespace consistency
+* [33m6ac93dc[m feat: add Python Kubernetes test runner with improved error handling
+* [33mc68454e[m feat: Parameter-driven test runner with multi-commit support
+* [33m79d0c2a[m feat: delete namespace handler bash
+* [33mb3aa2c1[m feat: add kubernetes-based testing environment setup
+* [33m799dd2f[m docs: delete api.md
+* [33maca9398[m fix: prevent false-positive errors and ensure clean json parsing in namespace handling
+* [33m4ba4711[m feat: improve error logging with structured details and propagation
+* [33m1ea67f6[m fix: add bytes import and correct error handling in namespace service
+* [33m361b89d[m fix: improve namespace handling with strict validation and error reporting
+* [33mceb7499[m refactor: migrate namespace handler from shell to python script
+* [33m059f98f[m chore: delete git_service.go
+* [33m562f2a1[m feat: replace git operations with kubernetes namespace management
+* [33m8cb61b0[m docs: delete readme
+* [33m585a560[m build: fix ports
+* [33m80b9151[m build: update docker compose
+* [33m813fd48[m feat: traefik configs update
+* [33me64befb[m feat: add traefik config for websockets
+* [33mb7e8c5c[m docs: update readme
+* [33m8d53058[m build: update traefik config
+* [33m526aa97[m ci: delete workflow
+* [33m6e78c3d[m docs: Expand README with comprehensive architecture and operations guide
+* [33m422617e[m chore: Add CI pipeline and API documentation
+* [33m60b6966[m refactor: restructure docker compose
+* [33m89e5a9d[m docs: update env example
+* [33m0ec6dbe[m fix: adjust docker entrypoint and cmd to maintain container process
+* [33m1a098eb[m fix: standardize aws default region env variable name
+* [33ma31f869[m fix: relocate kube config to user home with proper permissions
+* [33mc25961a[m chore: remove env_file and traefik retry middleware config
+* [33m34bdf5d[m fix: remove py3-venv from alpine dependencies
+* [33m620f1d0[m fix: Install AWS CLI in isolated virtual environment
+* [33m9d8ec38[m fix: Install AWS CLI via pip for Alpine compatibility
+* [33m1f4dbbf[m fix: ensure AWS CLI installation compatibility in Alpine container
+* [33m6f207b3[m chore: Configure backendim-brain service to use .env file
+* [33mb16ab8f[m docs: Update env example with docs and correct vars
+* [33m0bb4c1f[m feat: configure Traefik with HTTPS redirection and Let's Encrypt
+* [33me953d29[m fix: Create required directories before setting permissions in Dockerfile
+* [33m0d8850d[m fix: Remove Alpine package version pins and clean up kubectl
+* [33ma31d0c2[m chore: adjust Dockerfile formatting and py3-pip version
+* [33mf5c5a36[m chore: update gitignore
+* [33mabc1b80[m feat: rm .env
+* [33m8401c00[m chore: update gitignore
+* [33m94245e7[m chore: Update Alpine package versions to latest compatible versions
+* [33m09e0523[m feat: Harden security, add healthchecks, and pin dependencies
+* [33me01291f[m feat: Add docker-compose setup with production deployment configuration
+* [33mbb208f0[m feat: convert test script to python
+* [33mc005fee[m feat: delete unused files
+* [33m29d7cc7[m chore: go mod files
+* [33mf45de6e[m feat: replace bash client test script with persistent Python websocket client
+* [33mcb8369c[m chore: ignore aider files and local repo pulls
+* [33m4c56df1[m fix: maintain websocket client connection persistence using fifo
+* [33mfd80f97[m test: keep websocket connection open in client test script
+* [33mbb5b9a4[m feat: Replace gin.New() with gin.Default() for default logging middleware
+* [33mb6031e8[m refactor: Improve git handler script execution with logging and error handling
+* [33m4df4e83[m feat: Enhance logging for WebSocket and Gin with detailed connection an
